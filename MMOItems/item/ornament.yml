@@ -1,0 +1,16 @@
+BOOK_OF_STRENGTH:
+  base:
+    material: BOOK
+    name: §c力量之书
+    lore:
+      - §7即使放在§9背包§7中，
+      - §7也能为你提供属性加成！
+    tier: RARE
+    projectile-damage: 15.0
+    physical-damage: 10.0
+    magic-damage: 10.0
+    weapon-damage: 10.0
+    damage-reduction: 5.0
+    required-class:
+      - Warrior
+    required-level: 15.0

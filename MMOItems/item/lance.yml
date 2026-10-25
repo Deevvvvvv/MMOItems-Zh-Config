@@ -1,0 +1,28 @@
+FIRE_GREATLANCE:
+  base:
+    material: BLAZE_ROD
+    required-level: 30.0
+    attack-damage:
+      base: 14.5
+      spread: 0.01
+      max-spread: 0.03
+    attack-speed: 1.1
+    name: '&f烈焰巨枪'
+    ability:
+      on-hit:
+        type: LIFE_ENDER
+        mode: ATTACK
+        damage: 10.0
+        cooldown: 30.0
+    lore:
+    - '&7激战之中每隔40秒，便会召唤'
+    - '&7一颗毁灭性的&6烈焰彗星&7，'
+    - '&7在其陨落之际，将无情抹杀'
+    - '&7坠落点周遭的一切生灵。'
+    item-particles:
+      type: DOUBLE_RINGS
+      particle: FLAME
+      radius: 1.3
+      rotation-speed: 0.4
+    disable-crafting: true
+    two-handed: true

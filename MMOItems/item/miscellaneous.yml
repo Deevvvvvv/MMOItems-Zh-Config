@@ -1,0 +1,51 @@
+GOLD_COIN:
+  base:
+    material: GOLD_NUGGET
+    name: '&f金币'
+    lore:
+    - '&7一枚熠熠生辉的金币。'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    disable-crafting: true
+HUMAN_SOUL:
+  base:
+    material: PHANTOM_MEMBRANE
+    disable-repairing: false
+    disable-enchanting: false
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    name: '&6凡人魂魄'
+    disable-crafting: true
+    lore:
+    - '&7&o你仿佛能听见那些'
+    - '&7&o敌人的哀嚎……亦或是挚友的低语。'
+MYSTERIOUS_PEARL:
+  base:
+    material: ENDER_PEARL
+    enchants:
+      luck_of_the_sea: 1.0
+    hide-enchants: true
+    name: §9神秘珍珠
+    lore:
+      - §7§o无人知晓它究竟隐藏着何种秘密……
+      - §3无法堆叠。
+    unstackable: true
+    tier: RARE
+LEVEL_1_KEY:
+  base:
+    material: SHEARS
+    name: §3§n一级§3密钥
+    lore:
+      - §7手持时赋予权限 §cmmoitems.key§7。
+    granted-permissions:
+      - mmoitems.key
+    tier: UNIQUE
+    unstackable: true
+    disable-interaction: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smelting: true
+    disable-smithing: true
+    unbreakable: true

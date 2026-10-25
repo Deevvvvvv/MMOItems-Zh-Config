@@ -1,0 +1,15 @@
+THUNDER_BLESSING:
+  base:
+    material: BIRCH_SAPLING
+    disable-interaction: true
+    name: §b雷霆赐福
+    attack-damage: 3.0
+    weapon-damage: 10.0
+    skill-damage: 50.0
+    tier: EPIC
+    perm-effects:
+      SPEED: 1.0
+    lore:
+      - §b将此护符持于副手时，
+      - §b能大幅提升你的技能伤害。
+      - §3同时赋予速度 I 效果。

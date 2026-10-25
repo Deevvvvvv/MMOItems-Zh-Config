@@ -1,0 +1,157 @@
+# Item sets let you create links betweens the different items you create.
+# By wearing multiple items from the same set, the player will benefit from
+# set bonuses which incites him to use items from the same type.
+# This is a very powerful system for RPG items.
+#
+# You can also use potion effects as set bonuses, e.g
+# - "potion-speed: 2" gives permanent Speed II
+# - "potion-increase_damage: 3" gives permanent Strength III
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+#
+# You may also add abilities as full set bonuses. The ability ID
+# must start with 'ability-' but it is only used as reference.
+# You can configure the ability cast mode, type & modifiers as usual.
+
+
+ARCANE:
+    name: '&2奥术套装'
+    bonuses:
+        '3':
+            magic-damage: 20
+        '4':
+            max-mana: 30
+            potion-speed: 1
+    lore-tag:
+    - '&7奥术套装奖励：'
+    - '&8[3] +20% 魔法伤害'
+    - '&8[4] +30 最大法力值'
+    - '&8[4] 永久获得速度 I'
+
+STEEL:
+    name: '&8钢铁套装'
+    bonuses:
+        '3':
+            damage-reduction: 5
+        '4':
+            damage-reduction: 5
+    lore-tag:
+    - '&7钢铁套装奖励：'
+    - '&8[3] +5% 伤害减免'
+    - '&8[4] +10% 伤害减免'
+
+GINGERBREAD:
+    name: '&c姜饼套装'
+    bonuses:
+        '4':
+            damage-reduction: 6
+            potion-jump: 3
+    lore-tag:
+    - '&7姜饼套装奖励：'
+    - '&8[4] +5% 伤害减免'
+    - '&8[4] 永久获得跳跃提升 III'
+
+DRAGON:
+    name: '&5巨龙套装'
+    bonuses:
+        '4':
+            ability-1:
+                type: MAGICAL_SHIELD
+                cooldown: 10
+                duration: 5
+                power: 60
+                radius: 5
+                mode: WHEN_HIT
+    lore-tag:
+        - '&3完整巨龙套装奖励：'
+        - '&7当敌人攻击你时，一层&b魔法'
+        - '&b护盾&7将显现于你身，为你'
+        - '&7抵挡 &c60%&7 的所有伤害，'
+        - '&7持续 &c5秒&7。&7&o冷却时间 10秒。'
+
+PSYCHIC:
+    name: '&d念力套装'
+    bonuses:
+        '2':
+            ability-1:
+                type: TELEKINESY
+                duration: 8.0
+                cooldown: 12.0
+                knockback: 2.0
+                mode: RIGHT_CLICK
+            ability-2:
+                type: BLINK
+                cooldown: 8.0
+                range: 60
+                mode: SHIFT_RIGHT_CLICK
+    lore-tag:
+        - '&d念力套装：'
+        - '&7当装备&d控制装置&7并'
+        - '&7手持&f透明薄手套&7时，'
+        - '&7你可对实体&3右键&7施展念力，'
+        - '&7或使用&3Shift+右键&7'
+        - '&7传送至你所注视的方块。'
+        - '&8&o真是让人无奈……'
+
+UNDEADSLAYER:
+    name: '&4&l&k||| &4> &c&l亡灵猎手套装'
+    bonuses:
+        '4':
+            pve-damage: 10
+        '5':
+            undead-damage: 15
+    lore-tag:
+        - '&4&l&k||| &4> &c&l亡灵猎手套装'
+        - '&7穿戴完整&c护甲套装&7可赋予你 &c+10%&7 的 PvE 伤害。'
+        - '&7若使用&c亡灵猎手&7武器，将额外获得'
+        - '&c+15% &7对亡灵伤害。'
+
+SPELLCASTER:
+    name: '&d施法者套装'
+    bonuses:
+        '3':
+            max-mana: 10
+        '4':
+            magic-damage: 25
+        '5' :
+            potion-speed: 1
+    lore-tag:
+        - '&d施法者套装奖励：'
+        - '&3[3] +10 最大法力值'
+        - '&3[4] +25% 魔法伤害'
+        - '&7若手持施法者魔杖，'
+        - '&7将获得&b永久速度 I&7效果。'
+
+OMNIELEMENTAL:
+    name: '&e全元素套装'
+    bonuses:
+        '4':
+            water-defense: 100
+            fire-defense: 100
+            wind-defense: 100
+            earth-defense: 100
+        '5':
+            ice-defense: 100
+            thunder-defense: 100
+        '6':
+            lightness-defense: 100
+            darkness-defense: 100
+    lore-tag:
+        - '&e全元素套装奖励：'
+        - '&7[4] 保护你免受&c火焰&7、&3水流&7、狂风与&2大地&7的侵害。'
+        - '&7[5] 同时保护你免受&b冰霜&7与&e雷霆&7的侵害。'
+        - '&7[6] 保护你免受&f光明&7与&8黑暗&7的侵害。'
+
+# Not used by default
+HATRED:
+    name: '&c憎恨套装'
+    bonuses:
+        '2':
+            damage-reduction: 6
+            ability-1:
+                type: LIFE_ENDER
+                cooldown: 30
+                mode: ATTACK
+    lore-tag:
+        - '&7憎恨套装奖励：'
+        - '&8[2] 承受伤害减少 6%'
+        - '&8[2] 击中时召唤毁灭性的烈焰陨石。'

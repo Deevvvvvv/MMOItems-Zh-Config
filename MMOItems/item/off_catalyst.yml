@@ -1,0 +1,73 @@
+SCOPE:
+  base:
+    material: DIAMOND
+    name: §7精准瞄准镜
+    lore:
+      - §3在副手持有以提升
+      - §3远程伤害！
+    critical-strike-power:
+      base: 10.0
+      scale: 0.05
+      spread: 0.1
+      max-spread: 0.4
+    projectile-damage:
+      base: 30.0
+      scale: 0.1
+      spread: 0.2
+      max-spread: 0.3
+    tier: RARE
+    required-level: 10.0
+    pve-damage:
+      base: 10.0
+      scale: 0.1
+      spread: 0.2
+      max-spread: 0.3
+    pvp-damage:
+      base: 10.0
+      scale: 0.1
+      spread: 0.2
+      max-spread: 0.3
+QUICKCASTER_CATALYST:
+  base:
+    material: PRISMARINE_CRYSTALS
+    name: §b§l§o速施魔导器
+    lore:
+      - §d对初阶法师极为实用。
+    handworn: true
+    magic-damage: 10.0
+    cooldown-reduction: 25.0
+    skill-damage: 15.0
+    max-mana: 5.0
+    mana-regeneration: 1.0
+    required-class:
+      - Mage
+    required-level: 5.0
+    tier: RARE
+CHARM_OF_LEVITATION:
+  base:
+    material: IRON_NUGGET
+    enchants:
+      luck_of_the_sea: 1.0
+    hide-enchants: true
+    name: §9悬浮护符
+    handworn: true
+    lore:
+      - §b谁不需要短暂的腾空而起呢！
+      - §9但你大概是为了它的粒子效果才带走它的吧！
+      - §c显示为“护符”。需持于副手。
+      - §a增加 +10 星界能！
+    ability:
+      ability1:
+        type: MAGICAL_PATH
+        mode: RIGHT_CLICK
+        duration: 8.0
+        mana: 10.0
+        cooldown: 15.0
+    item-particles:
+      type: GALAXY
+      particle: END_ROD
+    displayed-type: 护符
+    disable-crafting: true
+    max-stellium: 10.0
+    tier: RARE
+    unstackable: true

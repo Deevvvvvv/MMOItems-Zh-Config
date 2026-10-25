@@ -1,0 +1,188 @@
+STEEL_INGOT:
+  base:
+    material: IRON_INGOT
+    name: '&f钢锭'
+    disable-repairing: true
+    disable-crafting: true
+    lore:
+      - '&7可在钢铁锻造台中用于打造高级装备。'
+UNCOMMON_WEAPON_ESSENCE:
+  base:
+    material: BLAZE_POWDER
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    lore:
+      - '&7可用于打造优良品质的物品。'
+    name: '&e优良武器精华'
+    disable-crafting: true
+    disable-smelting: true
+WITHER_ESSENCE:
+  base:
+    material: BLACK_DYE
+    name: '&8凋零精华'
+    disable-crafting: true
+RARE_WEAPON_ESSENCE:
+  base:
+    material: BLAZE_POWDER
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    lore:
+      - '&7可用于打造稀有品质的物品。'
+    name: '&e稀有武器精华'
+    disable-crafting: true
+    disable-smelting: true
+VERY_RARE_WEAPON_ESSENCE:
+  base:
+    material: BLAZE_POWDER
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    lore:
+      - '&7可用于打造珍奇品质的物品。'
+    name: '&e珍奇武器精华'
+    disable-crafting: true
+    disable-smelting: true
+LEGENDARY_WEAPON_ESSENCE:
+  base:
+    material: BLAZE_POWDER
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    lore:
+      - '&7可用于打造传说品质的物品。'
+    name: '&e传说武器精华'
+    disable-crafting: true
+    disable-smelting: true
+MYTHICAL_WEAPON_ESSENCE:
+  base:
+    material: BLAZE_POWDER
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    lore:
+      - '&7可用于打造神话品质的物品。'
+    name: '&e神话武器精华'
+    disable-crafting: true
+    disable-smelting: true
+EPIC_WEAPON_ESSENCE:
+  base:
+    material: BLAZE_POWDER
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    lore:
+      - '&7可用于打造史诗品质的物品。'
+    name: '&e史诗武器精华'
+    disable-crafting: true
+    disable-smelting: true
+MAGICAL_WEAPON_ESSENCE:
+  base:
+    material: BLAZE_POWDER
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    lore:
+      - '&7可用于打造魔法品质的物品。'
+    name: '&e魔法武器精华'
+    disable-crafting: true
+    disable-smelting: true
+UNIQUE_WEAPON_ESSENCE:
+  base:
+    material: BLAZE_POWDER
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    lore:
+      - '&7可用于打造独特品质的物品。'
+    name: '&e独特武器精华'
+    disable-crafting: true
+    disable-smelting: true
+WEAPON_POWDER:
+  base:
+    material: GUNPOWDER
+    tier: TRASH
+    name: '&7破损的武器粉末'
+    lore:
+      - '&7可当作普通的火药使用。'
+      - '&7在拆解物品时获得。'
+MAGIC_FRAGMENT:
+  base:
+    material: MAGENTA_DYE
+    disable-crafting: true
+    tier: RARE
+    name: '&8魔法碎片'
+MAGIC_ESSENCE:
+  base:
+    material: BOOK
+    disable-crafting: true
+    tier: RARE
+    name: '&5魔法精华'
+FIRE_ESSENCE:
+  base:
+    material: BLAZE_POWDER
+    disable-crafting: true
+    name: '&b烈焰精华'
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    crafting:
+      shaped: { }
+RARE_DIAMOND:
+  base:
+    material: DIAMOND
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    disable-crafting: true
+    name: '&b稀有钻石'
+SILVER_COIN:
+  base:
+    material: IRON_NUGGET
+    name: '&f银币'
+    lore:
+      - '&7一枚闪闪发光的银币。'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    disable-crafting: true
+SILVER_INGOT:
+  base:
+    material: IRON_INGOT
+    name: '&f银锭'
+    lore:
+      - '&7一块闪闪发光的银锭。'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    disable-crafting: true
+    crafting:
+      shaped:
+        '1':
+          - MATERIAL.SILVER_COIN MATERIAL.SILVER_COIN MATERIAL.SILVER_COIN
+          - MATERIAL.SILVER_COIN MATERIAL.SILVER_COIN MATERIAL.SILVER_COIN
+          - MATERIAL.SILVER_COIN MATERIAL.SILVER_COIN MATERIAL.SILVER_COIN
+RESTORATION_GEM:
+  base:
+    material: EMERALD
+    name: §a§l修复宝石
+    lore:
+      - §7此宝石可用于修复魔法物品。
+    tier: UNCOMMON
+ITEM_UPGRADER:
+  base:
+    material: PAPER
+    name: §f通用物品升级器
+    lore:
+      - §7§o此蓝图可用于升级任何武器。
+    tier: RARE
+DARK_NETHERITE:
+  base:
+    material: NETHERITE_INGOT
+    name: §c暗黑下界合金
+    lore:
+      - §c下界合金，但更加深邃。
+      - §e可在锻造台中与
+      - §e下界合金物品配合使用。
+    tier: RARE

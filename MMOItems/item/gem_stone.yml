@@ -1,0 +1,186 @@
+RUBY:
+  base:
+    material: EMERALD
+    name: '&f力量红宝石'
+    critical-strike-power:
+      base: 11.0
+      spread: 0.028
+      max-spread: 0.083
+    attack-damage:
+      base: 1.5
+      spread: 0.083
+      max-spread: 0.25
+    required-level: 5.0
+    disable-crafting: true
+GEM_OF_ACCURACY:
+  base:
+    material: DIAMOND
+    disable-crafting: true
+    name: '&f精准宝石'
+    success-rate:
+      base: 94.5
+      spread: 0.015
+      max-spread: 0.045
+    attack-speed:
+      base: 0.075
+      spread: 0.08
+      max-spread: 0.25
+    tier: COMMON
+    critical-strike-chance:
+      base: 12.5
+      spread: 0.06
+      max-spread: 0.17
+    gem-color: Blue
+    displayed-type: 蓝色宝石
+GEM_OF_LIFE:
+  base:
+    material: RED_DYE
+    max-health: 4.0
+    name: '&f生命宝石'
+    item-type-restriction:
+    - ARMOR
+    gem-color: Red
+    displayed-type: 红色护甲宝石
+    block-power: 3.0
+    disable-crafting: true
+NATURE_GIFT:
+  base:
+    material: EMERALD
+    name: '&f自然之赐'
+    displayed-type: 绿色宝石
+    fire-damage-reduction:
+      base: 25.0
+      spread: 0.06
+      max-spread: 0.17
+    required-level: 6.0
+SPITEFUL_OPAQUE_DIAMOND:
+  base:
+    material: DIAMOND
+    name: '&9怨念 opaque 钻石'
+    success-rate:
+      base: 11.0
+      spread: 0.03
+      max-spread: 0.08
+    attack-damage:
+      base: 3.5
+      spread: 0.04
+      max-spread: 0.13
+    armor: 2.0
+    disable-crafting: true
+    gem-color: Blue
+    displayed-type: 蓝色宝石
+GOLDEN_RELIC:
+  base:
+    material: GOLD_NUGGET
+    name: '&e黄金遗物'
+    lore:
+    - '&7可镶嵌于&e任意&7插槽中。'
+    - '&7'
+    critical-strike-chance:
+      base: 15.0
+      spread: 0.08
+      max-spread: 0.25
+    required-level: 20.0
+    disable-crafting: true
+BLAZE_SOUL:
+  base:
+    material: ORANGE_DYE
+    disable-crafting: true
+    name: '&c烈焰之魂'
+    required-level: 15.0
+    displayed-type: 红色宝石
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    fire-damage-reduction:
+      base: 55.0
+      spread: 0.03
+      max-spread: 0.08
+    success-rate:
+      base: 70.0
+      spread: 0.042
+      max-spread: 0.13
+NETHER_GEM:
+  base:
+    material: NETHERITE_SCRAP
+    name: §c下界宝石
+    lore:
+      - §c§o此宝石仅能镶嵌于
+      - §c§o含有下界插槽的物品上。
+    success-rate:
+      base: 60.0
+      scale: 0.12
+      spread: 0.25
+    gem-color: Nether
+    attack-damage:
+      base: 6.0
+      scale: 0.05
+      spread: 0.06
+      max-spread: 0.12
+    weapon-damage:
+      base: 14.0
+      scale: 0.1
+      spread: 0.09
+      max-spread: 0.15
+    critical-strike-chance:
+      base: 4.0
+      scale: 0.1
+      spread: 0.09
+      max-spread: 0.15
+    critical-strike-power:
+      base: 25.0
+      scale: 0.1
+      spread: 0.09
+      max-spread: 0.15
+    crafting:
+      shaped:
+        '1':
+          input:
+            - v AIR 0 1..|v netherite_ingot - 1.0..|v AIR 0 1..
+            - v netherite_ingot - 1.0..|v magma_cream - 1.0..|v netherite_ingot - 1.0..
+            - v AIR 0 1..|v netherite_ingot - 1.0..|v AIR 0 1..
+    tier: RARE
+RAINBOW_GEM:
+  base:
+    material: AMETHYST_SHARD
+    name: §c§l彩§6§l虹§e§l宝§a§l石
+    lore:
+      - §e彩虹宝石能大幅
+      - §e提升你的各项属性！
+      - §2它还会根据物品先前的
+      - §2强化次数进行额外升级！
+      - §c极难合成！
+    attack-damage: 2.0
+    attack-speed: 0.1
+    critical-strike-chance: 10.0
+    critical-strike-power: 15.0
+    block-power: 2.0
+    block-rating: 2.0
+    block-cooldown-reduction: 2.5
+    cooldown-reduction: 5.0
+    weapon-damage: 5.0
+    magic-damage: 2.5
+    tier: LEGENDARY
+    unstackable: true
+    gem-color: Rainbow
+    gem-upgrade-scaling: HISTORIC
+    max-health: 5.0
+    max-mana: 5.0
+    crafting:
+      megashaped:
+        '1':
+          input:
+            - v netherite_sword - 1.0..|v netherite_helmet - 1.0..|v netherite_chestplate
+              - 1.0..|v netherite_leggings - 1.0..|v netherite_boots - 1.0..|v golden_sword
+              - 1.0..
+            - v diamond_helmet - 1.0..|v wither_skeleton_skull - 1.0..|v gold_ingot
+              - 1.0..|v gold_ingot - 1.0..|v nether_star - 1.0..|v golden_helmet - 1.0..
+            - v diamond_chestplate - 1.0..|v iron_ingot - 1.0..|v diamond_block - 1.0..|v
+              diamond_block - 1.0..|v amethyst_shard - 1.0..|v golden_chestplate - 1.0..
+            - v diamond_leggings - 1.0..|v iron_ingot - 1.0..|v diamond_block - 1.0..|v
+              diamond_block - 1.0..|v amethyst_shard - 1.0..|v golden_leggings - 1.0..
+            - v diamond_boots - 1.0..|v netherite_block - 1.0..|v copper_ingot - 1.0..|v
+              copper_ingot - 1.0..|v heart_of_the_sea - 1.0..|v golden_boots - 1.0..
+            - v iron_sword - 1.0..|v iron_helmet - 1.0..|v iron_chestplate - 1.0..|v
+              iron_leggings - 1.0..|v iron_boots - 1.0..|v diamond_sword - 1.0..
+    success-rate: 90.0
