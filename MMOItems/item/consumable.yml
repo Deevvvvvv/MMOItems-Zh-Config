@@ -1,7 +1,7 @@
 SANDWITCH:
   base:
     material: BREAD
-    name: '&c沙子&6女巫'
+    name: '&c三&6明治'
     effects:
       POISON:
         duration: 10
